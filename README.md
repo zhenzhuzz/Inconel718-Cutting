@@ -131,12 +131,4 @@ Inconel718-CuttingSim
 - 仿真与实验的差异主要来自模型简化与边界条件假设  
 - 本 README 中所有图片为占位符，需替换为实际结果
 
----
 
-## 🖼 图片占位文件
-- `images/project1_force_vs_speed.png`
-- `images/project1_temperature.png`
-- `images/project1_chip.gif`
-- `images/project2_force_radius.png`
-- `images/project2_chip_thickness.png`
-- `images/project2_chip.gif`
