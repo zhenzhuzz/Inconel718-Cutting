@@ -16,7 +16,7 @@ Thermomechanical cutting simulation of nickel-based superalloy Inconel 718 using
 两次研究的建模思路相似，但研究重点不同：
 
 1. **项目一（2023年1月）**：使用 Abaqus 建立 Johnson–Cook 塑性与损伤模型的全热-力耦合切削仿真。  
-2. **项目二（2023年6月）**：基于 CuttingSim 进行刀具圆角、切削速度、摩擦系数等参数化研究，并与文献仿真及实验结果对比。
+2. **项目二（2023年6月）**：基于 Abaqus的插件CuttingSim 进行刀具圆角、切削速度、摩擦系数等参数化研究，并与文献仿真及实验结果对比。
 
 ---
 
