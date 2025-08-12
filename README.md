@@ -1,42 +1,61 @@
-# Inconel718-Cutting
-Thermomechanical cutting simulation of nickel-based superalloy Inconel 718 using Abaqus and CuttingSim, analyzing effects of tool geometry, cutting speed, and friction on forces, temperature fields, and chip morphology.
-
-# 镍基高温合金 Inconel718 热力耦合切削仿真
-
----
-
 🔬 背景
 -----
 
-本研究面向 **镍基高温合金 Inconel 718（GH4169）** 的二维正交切削过程，基于 **Abaqus 有限元平台** 搭建 **Johnson–Cook 热-力耦合模型**，并实现切屑形成与分离的全过程仿真，旨在定量分析不同切削速度对切削力、进给力、切削区温度场及切屑形貌的影响，并与文献和实验结果对比验证模型的可靠性。
+本研究面向 **Inconel 718（GH4169）** 的二维正交切削，依托 **Abaqus** 构建 **Johnson–Cook 热-力耦合**与损伤分离模型，系统评估切削速度对切削力、进给力、切削区温度与切屑形貌的影响，并与文献/实验对照验证。Inconel 718 以沉淀强化著称，具备高温强度与耐蚀性，但导热率低、加工硬化强、易积屑瘤，导致高热-机械负荷与刀具快速磨损。高保真数值仿真因此成为刀具设计与工艺优化的关键手段。
 
-**Inconel718 材料特性**  
-Inconel718 是一种典型的沉淀强化镍基高温合金，因其高温性能优异而广泛应用于航空、能源等领域。
+---
 
-* **高温强度与刚度**：在约 850 ℃ 仍能保持高屈服强度和弹性模量；
-    
-* **耐腐蚀性**：在氧化和盐雾环境下具有优异稳定性；
-    
-* **加工性差**：低导热率（导致切削区温度升高）、显著加工硬化倾向、易产生积屑瘤。
-    
+### 1. 温度场与切削力动态演化
+<p align="center">
+  <img src="Media/temperature_vc40.gif" alt="Vc=40 m/min 温度场演化" width="45%">
+  <img src="Media/force_vc40.gif" alt="Vc=40 m/min 切削/进给力响应" width="45%">
+</p>
+<p align="center">
+  <img src="Media/force_vc80.gif" alt="Vc=80 m/min 切削/进给力响应" width="60%">
+</p>
 
-**应用场景**  
-主要用于航空发动机高温部件，例如涡轮叶片、燃烧室、导向器等。这些部件加工精度要求极高，加工过程中切削温度和刀具磨损控制尤为关键。
+---
 
-**研究动机**  
-由于 Inconel718 的加工性差，切削过程中刀具承受高热负荷和高机械负荷，易导致刀具寿命缩短、工件表面质量下降。因此，需要通过 **高精度热-力耦合有限元仿真** 预测切削过程中的力学与热学响应，指导刀具设计与切削工艺优化。
+### 2. 应用背景与有限元模型
+<table>
+  <tr>
+    <td width="50%">
+      <img src="Media/航空涡轮发动机.jpg" alt="航空涡轮发动机">
+      <br><em>应用背景：航空涡轮发动机</em>
+    </td>
+    <td width="50%">
+      <img src="Media/发动机燃烧室.jpg" alt="发动机燃烧室">
+      <br><em>应用背景：发动机燃烧室</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Media/正交切削有限元仿真模型.png" alt="正交切削有限元仿真模型">
+      <br><em>二维正交切削有限元仿真模型</em>
+    </td>
+    <td>
+      <img src="Media/正交切削有限元仿真模型2.png" alt="正交切削有限元仿真模型变体">
+      <br><em>仿真边界条件与几何示意</em>
+    </td>
+  </tr>
+</table>
 
-**本研究目标**
+---
 
-* 构建全温度依赖的 Inconel718 Johnson–Cook 塑性与损伤模型；
-    
-* 建立刀具–工件热接触及摩擦模型，考虑库仑摩擦与热流导通；
-    
-* 研究不同切削速度（20、40、80 m/min）下的切削力、进给力变化规律；
-    
-* 分析切削区温度场分布特征及切屑形貌形成机理；
-    
-* 对比仿真结果与实验及文献数据，评估模型预测精度。
+### 3. 不同切削速度下的切屑对比
+<table>
+  <tr>
+    <td>
+      <img src="Media/不同切削速度vc下的切屑形状对比.png" alt="不同Vc切屑形状对比">
+      <br><em>不同切削速度 \(V_c\) 下的切屑形状对比</em>
+    </td>
+    <td>
+      <img src="Media/不同切削速度vc下的切屑厚度对比.png" alt="不同Vc切屑厚度对比">
+      <br><em>不同切削速度 \(V_c\) 下的切屑厚度对比</em>
+    </td>
+  </tr>
+</table>
+
 
 ### 建模方法与物理模型
 
