@@ -10,11 +10,11 @@
 
 ### 1. 温度场与切削力动态演化
 <p align="center">
-  <img src="Media/temperature_vc40.gif" alt="Vc=40 m/min 温度场演化" width="45%">
-  <img src="Media/force_vc40.gif" alt="Vc=40 m/min 切削/进给力响应" width="45%">
+  <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/temperature_vc40.gif" alt="Vc=40 m/min 温度场演化" width="45%">
+  <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/force_vc40.gif" alt="Vc=40 m/min 切削/进给力响应" width="45%">
 </p>
 <p align="center">
-  <img src="Media/force_vc80.gif" alt="Vc=80 m/min 切削/进给力响应" width="60%">
+  <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/force_vc80.gif" alt="Vc=80 m/min 切削/进给力响应" width="60%">
 </p>
 
 ---
@@ -23,21 +23,21 @@
 <table>
   <tr>
     <td width="50%">
-      <img src="Media/航空涡轮发动机.jpg" alt="航空涡轮发动机">
+      <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/航空涡轮发动机.jpg" alt="航空涡轮发动机">
       <br><em>应用背景：航空涡轮发动机</em>
     </td>
     <td width="50%">
-      <img src="Media/发动机燃烧室.jpg" alt="发动机燃烧室">
+      <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/发动机燃烧室.jpg" alt="发动机燃烧室">
       <br><em>应用背景：发动机燃烧室</em>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="Media/正交切削有限元仿真模型.png" alt="正交切削有限元仿真模型">
+      <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/正交切削有限元仿真模型.png" alt="正交切削有限元仿真模型">
       <br><em>二维正交切削有限元仿真模型</em>
     </td>
     <td>
-      <img src="Media/正交切削有限元仿真模型2.png" alt="正交切削有限元仿真模型变体">
+      <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/正交切削有限元仿真模型2.png" alt="正交切削有限元仿真模型变体">
       <br><em>仿真边界条件与几何示意</em>
     </td>
   </tr>
@@ -49,11 +49,11 @@
 <table>
   <tr>
     <td>
-      <img src="Media/不同切削速度vc下的切屑形状对比.png" alt="不同Vc切屑形状对比">
+      <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/不同切削速度vc下的切屑形状对比.png" alt="不同Vc切屑形状对比">
       <br><em>不同切削速度 \(V_c\) 下的切屑形状对比</em>
     </td>
     <td>
-      <img src="Media/不同切削速度vc下的切屑厚度对比.png" alt="不同Vc切屑厚度对比">
+      <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/不同切削速度vc下的切屑厚度对比.png" alt="不同Vc切屑厚度对比">
       <br><em>不同切削速度 \(V_c\) 下的切屑厚度对比</em>
     </td>
   </tr>
