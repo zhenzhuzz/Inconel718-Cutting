@@ -20,7 +20,7 @@
 ---
 
 ### 2. 应用背景与有限元模型
-<table>
+<table align="center">
   <tr>
     <td width="50%">
       <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/航空涡轮发动机.jpg" alt="航空涡轮发动机">
@@ -46,7 +46,7 @@
 ---
 
 ### 3. 不同切削速度下的切屑对比
-<table>
+<table align="center">
   <tr>
     <td>
       <img src="01_Abaqus_FEM_ThermalMechanical_Cutting/Media/不同切削速度vc下的切屑形状对比.png" alt="不同Vc切屑形状对比">
@@ -211,7 +211,7 @@ $$\varepsilon_f = \left( d_1 + d_2 e^{-d_3 \sigma_m / \sigma_{vM}} \right) \left
 ### 📷 成果展示
 
 ### 1. 热-力-几何模型与仿真参数
-<table>
+<table align="center">
   <tr>
     <td>
       <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/热-力-几何模型介绍.png" alt="热-力-几何模型介绍" />
@@ -227,7 +227,7 @@ $$\varepsilon_f = \left( d_1 + d_2 e^{-d_3 \sigma_m / \sigma_{vM}} \right) \left
 ---
 
 ### 2. 切削力对比
-<table>
+<table align="center">
   <tr>
     <td>
       <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/切削力对比_不同刀具圆角.png" alt="切削力对比_不同刀具圆角" />
@@ -243,7 +243,7 @@ $$\varepsilon_f = \left( d_1 + d_2 e^{-d_3 \sigma_m / \sigma_{vM}} \right) \left
 ---
 
 ### 3. 进给力对比
-<table>
+<table align="center">
   <tr>
     <td>
       <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/进给力对比_不同刀具圆角.png" alt="进给力对比_不同刀具圆角" />
@@ -259,7 +259,7 @@ $$\varepsilon_f = \left( d_1 + d_2 e^{-d_3 \sigma_m / \sigma_{vM}} \right) \left
 ---
 
 ### 4. 切屑厚度与形状对比
-<table>
+<table align="center">
   <tr>
     <td>
       <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/切屑厚度_不同刀具圆角_不同切削速度.png" alt="切屑厚度_不同刀具圆角_不同切削速度" />
