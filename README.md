@@ -208,6 +208,72 @@ $$\varepsilon_f = \left( d_1 + d_2 e^{-d_3 \sigma_m / \sigma_{vM}} \right) \left
 
 ---
 
+### 📷 成果展示
+
+### 1. 热-力-几何模型与仿真参数
+<table>
+  <tr>
+    <td>
+      <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/热-力-几何模型介绍.png" alt="热-力-几何模型介绍" />
+      <br><em>热-力-几何模型示意</em>
+    </td>
+    <td>
+      <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/仿真参数_6个特征量_36组仿真数据.png" alt="仿真参数_6个特征量_36组仿真数据" />
+      <br><em>仿真参数：6 个特征量 × 36 组数据</em>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 2. 切削力对比
+<table>
+  <tr>
+    <td>
+      <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/切削力对比_不同刀具圆角.png" alt="切削力对比_不同刀具圆角" />
+      <br><em>切削力对比（不同刀具圆角）</em>
+    </td>
+    <td>
+      <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/切削力对比_不同切削速度.png" alt="切削力对比_不同切削速度" />
+      <br><em>切削力对比（不同切削速度）</em>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 3. 进给力对比
+<table>
+  <tr>
+    <td>
+      <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/进给力对比_不同刀具圆角.png" alt="进给力对比_不同刀具圆角" />
+      <br><em>进给力对比（不同刀具圆角）</em>
+    </td>
+    <td>
+      <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/进给力对比_不同切削速度.png" alt="进给力对比_不同切削速度" />
+      <br><em>进给力对比（不同切削速度）</em>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 4. 切屑厚度与形状对比
+<table>
+  <tr>
+    <td>
+      <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/切屑厚度_不同刀具圆角_不同切削速度.png" alt="切屑厚度_不同刀具圆角_不同切削速度" />
+      <br><em>切屑厚度对比（不同刀具圆角 & 不同切削速度）</em>
+    </td>
+    <td>
+      <img src="02_CuttingSim_ToolGeometry_Friction_Analysis/Media/切屑形状_不同刀具圆角_不同切削速度_不同摩擦系数.png" alt="切屑形状_不同刀具圆角_不同切削速度_不同摩擦系数" />
+      <br><em>切屑形状对比（不同刀具圆角 & 不同切削速度 & 不同摩擦系数）</em>
+    </td>
+  </tr>
+</table>
+
+---
+
 ### 🛠 热-力-几何模型构建
 
 - **热力学模型**：基于热力学第一定律，材料参数 \( c_p, \lambda, \alpha \) 全温度依赖；
@@ -247,24 +313,6 @@ $$\varepsilon_f = \left( d_1 + d_2 e^{-d_3 \sigma_m / \sigma_{vM}} \right) \left
 
 ---
 
-### 📷 成果展示
-
-#### 切削力对比（不同刀具圆角）
-![不同刀具圆角下切削力对比](images/bo_d2cb7ef7aajc738prv7g_6_800_353_1524_603_0.jpg)
-
-#### 切削力对比（不同切削速度）
-![不同切削速度下切削力对比](images/bo_d2cb7ef7aajc738prv7g_7_339_370_1978_604_0.jpg)
-
-#### 进给力对比（不同刀具圆角）
-![不同刀具圆角下进给力对比](images/bo_d2cb7ef7aajc738prv7g_8_342_363_1952_602_0.jpg)
-
-#### 进给力对比（不同切削速度）
-![不同切削速度下进给力对比](images/bo_d2cb7ef7aajc738prv7g_9_749_364_1565_606_0.jpg)
-
-#### 切屑厚度与形状对比
-![切屑厚度与形状对比](images/bo_d2cb7ef7aajc738prv7g_11_33_224_1362_1032_0.jpg)
-
----
 
 ### 💡 使用 CuttingSim 的优势与思考
 
